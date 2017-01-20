@@ -38,5 +38,12 @@ describe('computePrice', function() {
 		expect(result[0]).to.equal(8)
 		expect(result[1]).to.equal(2)
 	})
+	it('Basket with two different products should return the price of the two products', function(){
+		var result = computePrice(products)
+		expect(result[0]).to.be.a('Number')
+		expect(result[1]).to.be.a('Number')
+		expect(result[0]).to.equal(42)
+		expect(result[1]).to.equal(12)
+	})
 })
 

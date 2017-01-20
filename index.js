@@ -13,6 +13,8 @@ let products = ['tomato', 'cucumber', 'salad', 'cucumber', 'tomato', 'salad', 't
 function computePrice(basket){
 	let price = 0
 	let productCount = 0
+	productsFinal = []
+	
 	basket.forEach(function(product){
 		price += prices[product]
 		productCount += 1
