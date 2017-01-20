@@ -12,10 +12,12 @@ let products = ['tomato', 'cucumber', 'salad', 'cucumber', 'tomato', 'salad', 't
 
 function computePrice(basket){
 	let price = 0
+	let productCount = 0
 	basket.forEach(function(product){
 		price += prices[product]
+		productCount += 1
 	})
-	return price
+	return [price,productCount]
 	// let price
 	// price = basket.map((product)=> price + prices[product])
 	// console.log(price)
