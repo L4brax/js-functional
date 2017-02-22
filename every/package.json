@@ -1,0 +1,12 @@
+{
+  "name": "every",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha test/*.test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
