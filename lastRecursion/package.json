@@ -1,8 +1,8 @@
 {
-  "name": "recursion",
+  "name": "lastrecursion",
   "version": "1.0.0",
-  "description": "",
-  "main": "recursion.js",
+  "description": "A SUPER DESCRIPTION",
+  "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
@@ -12,7 +12,5 @@
     "chai": "^3.5.0",
     "mocha": "^3.2.0"
   },
-  "dependencies": {
-    "lodash": "^4.17.4"
-  }
+  "repository" : "NICE REPOW !"
 }
